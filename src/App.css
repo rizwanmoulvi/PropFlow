@@ -1,3 +1,6 @@
+@import "./skeleton.css";
+@import "./normalize.css";
+
 .App {
   text-align: center;
 }
@@ -26,6 +29,12 @@
 
 .App-link {
   color: #61dafb;
+}
+
+#head{
+  color: #1EAEDB;
+  font-size: 50px;
+  font-weight: bolder;
 }
 
 @keyframes App-logo-spin {

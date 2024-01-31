@@ -1,0 +1,28 @@
+{
+	"contracts": {
+		"PropFlow": "./src/flow/contract/PropFlow.cdc"
+	},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"sandboxnet": "access.sandboxnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "0xf8d6e0586b0a20c7",
+			"key": "d4fe8a7595336d8468a30a582f3ae585f454ead36930ae9971768e4198ce8ed7"
+		},
+		"test": {
+			"address": "0x179b6b1cb6755e31",
+			"key": "7d5a53f3dc5e795bd1aa29c23eb4e53b2f712e87091436b3a74641956d88333b"
+		}
+	},
+	"deployments": {
+		"emulator": {
+			"emulator-account": [
+				"PropFlow"
+			]
+		}
+	}
+}
